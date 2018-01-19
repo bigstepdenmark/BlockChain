@@ -1,11 +1,11 @@
 # BlockChai
 
-### Requirements
+## Requirements
 * Java 1.8 >
 * Apache Maven
 ----
 
-### Getting started
+## Getting started
 
 1. Clone or just download the repository.
 ```bash
@@ -26,7 +26,7 @@
 
 ---
 
-### Endpoints
+## Endpoints
 
 * GET: http://localhost:7777/api/nodes
 * GET: http://localhost:7777/api/node/{name}
@@ -34,41 +34,33 @@
 * GET: http://localhost:7777/api/mine/{name}
 * GET: http://localhost:7777/api/blockchain/{name}
 
+#### Get all nodes (method=GET)
 ```
-# Get all nodes (method=GET)
 ➜ curl http://localhost:7777/api/nodes | jq
 ```
 <img src="images/allnodes.png">
 
---
-
-```bash
-# Get the node by given node name (method=GET)
-➜ http://localhost:7777/api/node/{name} | jq
+#### Get the node by given node name (method=GET)
+```
+➜ curl http://localhost:7777/api/node/{name} | jq
 ```
 <img src="images/getnode.png">
 
---
-
+#### Create new node (method=GET)
 ```
-# Create new node (method=GET)
-➜ http://localhost:7777/api/addnode/{name}/{port} | jq
+➜ curl http://localhost:7777/api/addnode/{name}/{port} | jq
 ```
 <img src="images/addnode.png">
 
---
-
+#### Create new block by given node name (method=GET)
 ```
-# Create new block by given node name (method=GET)
-➜ http://localhost:7777/api/mine/{name} | jq
+➜ curl http://localhost:7777/api/mine/{name} | jq
 ```
 <img src="images/mine.png">
 
---
-
+#### Get all blockchains by given node name (method=GET)
 ```
-# Get all blockchains by given node name (method=GET)
-➜ http://localhost:7777/api/blockchain/{name} | jq
+➜ curl http://localhost:7777/api/blockchain/{name} | jq
 ```
 <img src="images/blockchain.png">
 
