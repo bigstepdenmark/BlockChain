@@ -34,7 +34,7 @@
 * GET: http://localhost:7777/api/mine/{name}
 * GET: http://localhost:7777/api/blockchain/{name}
 
-```bash
+```
 # Get all nodes (method=GET)
 ➜ curl http://localhost:7777/api/nodes | jq
 
