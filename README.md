@@ -14,7 +14,7 @@ Vi har i denne opgave prøvet at implementere en simple Block Chain applikation,
 ## Requirements
 * <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">Java 1.8 +</a>
 * <a href="https://maven.apache.org/install.html">Apache Maven</a>
-* Alternative: <a href="https://hub.docker.com/r/jamesdbloom/docker-java8-maven/">jamesdbloom/docker-java8-maven</a>
+* Alternative to Java and Maven: <a href="https://hub.docker.com/r/jamesdbloom/docker-java8-maven/">jamesdbloom/docker-java8-maven</a>
 
 ## Getting started
 1. Clone or just download the repository.
