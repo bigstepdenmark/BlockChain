@@ -20,7 +20,7 @@ public class Block implements Serializable
 
     }
 
-    public Block(int index, String prevHash, String data)
+    public Block( int index, String prevHash, String data )
     {
         this.index = index;
         this.previousHash = prevHash;
@@ -39,7 +39,7 @@ public class Block implements Serializable
             byte[] hash = digest.digest( base.getBytes( "UTF-8" ) );
             StringBuilder hexBuilder = new StringBuilder();
 
-            for ( byte h : hash)
+            for ( byte h : hash )
             {
                 String hex = Integer.toHexString( 0xff & h );
                 if ( hex.length() == 1 )

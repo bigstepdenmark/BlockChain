@@ -1,8 +1,19 @@
+<img src="images/chain.jpg">
+
 # BlockChain
+by Ismail Cam & Mazlum D. Sert 
+<a href="https://github.com/datsoftlyngby/soft2017fall-system-integration-teaching-material/blob/master/lecture_notes/12-Blockchain_Intro.ipynb">The assignment</a>
+
+Vi har i denne opgave prøvet at implementere en simple Block Chain applikation, som skal kunne køre på en peer-to-peer network i Java.
+ 
+*Obs Desværre er stadig små mangler i programmet.*
+
+---
 
 ## Requirements
-* Java 1.8 >
-* Apache Maven
+* <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">Java 1.8 +</a>
+* <a href="https://maven.apache.org/install.html">Apache Maven</a>
+* Alternative: <a href="https://hub.docker.com/r/jamesdbloom/docker-java8-maven/">jamesdbloom/docker-java8-maven</a>
 
 ## Getting started
 1. Clone or just download the repository.
@@ -66,3 +77,14 @@
 ➜ curl http://localhost:7777/api/blockchain/{name} | jq
 ```
 <img src="images/blockchain.png">
+
+---
+
+## Resources
+* https://github.com/sunysen/naivechain
+* https://medium.com/programmers-blockchain/create-simple-blockchain-java-tutorial-from-scratch-6eeed3cb03fa
+* https://medium.com/@lhartikk/a-blockchain-in-200-lines-of-code-963cc1cc0e54
+* https://www.savjee.be/2017/07/Writing-tiny-blockchain-in-JavaScript/
+* https://www.youtube.com/watch?v=zVqczFZr124
+* https://www.youtube.com/watch?v=HneatE69814
+* https://spring.io/guides/gs/spring-boot/

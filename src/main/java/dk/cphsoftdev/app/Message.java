@@ -27,25 +27,25 @@ public class Message implements Serializable
     {
         private final Message message = new Message();
 
-        MessageBuilder messagePublisher(final int publisher)
+        MessageBuilder messagePublisher( final int publisher )
         {
             message.PUBLISHER = publisher;
             return this;
         }
 
-        MessageBuilder messageSubscriber(final int subscriber)
+        MessageBuilder messageSubscriber( final int subscriber )
         {
             message.SUBSCRIBER = subscriber;
             return this;
         }
 
-        MessageBuilder messageType(final MESSAGE_TYPE type)
+        MessageBuilder messageType( final MESSAGE_TYPE type )
         {
             message.TYPE = type;
             return this;
         }
 
-        MessageBuilder messageBlocks(final List<Block> blocks)
+        MessageBuilder messageBlocks( final List<Block> blocks )
         {
             message.BLOCKS = blocks;
             return this;
