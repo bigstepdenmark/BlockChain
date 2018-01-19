@@ -1,12 +1,13 @@
+# BlockChain
 <img src="images/chain.jpg">
 
-# BlockChain
-by Ismail Cam & Mazlum D. Sert 
-<a href="https://github.com/datsoftlyngby/soft2017fall-system-integration-teaching-material/blob/master/lecture_notes/12-Blockchain_Intro.ipynb">The assignment</a>
+Af Ismail Cam & Mazlum D. Sert 
+
+<a href="https://github.com/datsoftlyngby/soft2017fall-system-integration-teaching-material/blob/master/lecture_notes/12-Blockchain_Intro.ipynb">Assignment</a>
 
 Vi har i denne opgave prøvet at implementere en simple Block Chain applikation, som skal kunne køre på en peer-to-peer network i Java.
  
-*Obs Desværre er stadig små mangler i programmet.*
+**Obs desværre er stadig små mangler i programmet.*
 
 ---
 
