@@ -37,10 +37,10 @@
 ```
 # Get all nodes (method=GET)
 ➜ curl http://localhost:7777/api/nodes | jq
-
-<img src="images/allnodes.png">
 ```
+<img src="images/allnodes.png">
 
+--
 
 ```bash
 # Get the node by given node name (method=GET)
@@ -48,6 +48,7 @@
 ```
 <img src="images/getnode.png">
 
+--
 
 ```
 # Create new node (method=GET)
@@ -55,6 +56,7 @@
 ```
 <img src="images/addnode.png">
 
+--
 
 ```
 # Create new block by given node name (method=GET)
@@ -62,6 +64,7 @@
 ```
 <img src="images/mine.png">
 
+--
 
 ```
 # Get all blockchains by given node name (method=GET)
