@@ -28,33 +28,44 @@
 
 ### Endpoints
 
-Get all nodes (method=GET)
-```
-➜ http://localhost:7777/api/nodes
-```
-<img src="images/allnodes.png">
+* GET: http://localhost:7777/api/nodes
+* GET: http://localhost:7777/api/node/{name}
+* GET: http://localhost:7777/api/addnode/{name}/{port}
+* GET: http://localhost:7777/api/mine/{name}
+* GET: http://localhost:7777/api/blockchain/{name}
 
-Get the node by given node name (method=GET)
+```bash
+# Get all nodes (method=GET)
+➜ curl http://localhost:7777/api/nodes | jq
+
+<img src="images/allnodes.png">
 ```
-➜ http://localhost:7777/api/node/{name}
+
+
+```bash
+# Get the node by given node name (method=GET)
+➜ http://localhost:7777/api/node/{name} | jq
 ```
 <img src="images/getnode.png">
 
-Create new node (method=GET)
+
 ```
-➜ http://localhost:7777/api/addnode/{name}/{port}
+# Create new node (method=GET)
+➜ http://localhost:7777/api/addnode/{name}/{port} | jq
 ```
 <img src="images/addnode.png">
 
-Create new block by given node name (method=GET)
+
 ```
-➜ http://localhost:7777/api/mine/{name}
+# Create new block by given node name (method=GET)
+➜ http://localhost:7777/api/mine/{name} | jq
 ```
 <img src="images/mine.png">
 
-Get all blockchains by given node name (method=GET)
+
 ```
-➜ http://localhost:7777/api/blockchain/{name}
+# Get all blockchains by given node name (method=GET)
+➜ http://localhost:7777/api/blockchain/{name} | jq
 ```
 <img src="images/blockchain.png">
 
