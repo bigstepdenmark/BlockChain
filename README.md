@@ -1,16 +1,6 @@
 # BlockChain
 <img src="images/chain.jpg">
 
-Af Ismail Cam & Mazlum D. Sert 
-
-<a href="https://github.com/datsoftlyngby/soft2017fall-system-integration-teaching-material/blob/master/lecture_notes/12-Blockchain_Intro.ipynb">Assignment</a>
-
-Vi har i denne opgave prøvet at implementere en simple Block Chain applikation, som skal kunne køre på en peer-to-peer network i Java.
- 
-**Obs desværre er stadig små mangler i programmet.*
-
----
-
 ## Requirements
 * <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">Java 1.8 +</a>
 * <a href="https://maven.apache.org/install.html">Apache Maven</a>
